@@ -7,3 +7,10 @@ Banking Chatbot based on dialogflow and Flask
 3) Blocking bank account due to suspicious activity
 4) Other banking app operations as integrated functions
 
+# Components
+
+[MySQL]/[External-Dataset] = As database to store user bank information for retrieval and updation
+[Flask] = For Eve API deployment
+[Dialogue Flow] = For NLP, to extract entities and actions(https://bot.dialogflow.com/payment-bot)
+
+
