@@ -6,7 +6,7 @@ from flask import Flask,request
 app = Flask(__name__)
 
 
-@app.route("/", methods=['POST'])
+@app.route("/get_data", methods=['POST'])
 def home():
     with open('self_contact.json') as json_file:
         data = json.load(json_file)
